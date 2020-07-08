@@ -33,7 +33,7 @@ $(function() {
                     "height": width + "px",
                     "width": width + "px",
                     "border-radius": width + "px",
-                    "position": "absolute",
+                    "position": "center",
                     "left": Math.random() * window.innerWidth,
                     "top": Math.random() * window.innerHeight,
                 },
