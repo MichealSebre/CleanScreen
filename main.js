@@ -18,6 +18,8 @@ $(function() {
         showCircles();
     });
 
+
+
     function showCircles() {
 
         const circles = [];
@@ -50,6 +52,9 @@ $(function() {
                 //sets opacity to 1 when mouse is not hovered on the circle 
                 "mouseleave": function() {
                     $("#circle-" + i).css("opacity", 1);
+                },
+                "stop" : function() {
+                    $(".circle").stop();
                 }
             });
             circles.push(circle);
